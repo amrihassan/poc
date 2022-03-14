@@ -3,6 +3,7 @@ package com.sncf.api.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
 
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -26,6 +27,9 @@ public class User {
     @JsonProperty("phoneNumber")
     @Size(min = 10, max = 15)
     public String phoneNumber;
+
+    @Email(message = "l'adresse email n'est pas cohérente!")
+    private String email;
 
     public String getFirstName() {
         return firstName;
