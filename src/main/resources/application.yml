@@ -1,0 +1,12 @@
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  packagesToScan: com.sncf
+  api-docs:
+    enabled: true
+
+server:
+  servlet:
+    context-path: /poc
+  port: 8080
+
