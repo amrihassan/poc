@@ -1,6 +1,6 @@
-package com.sncf.api;
+package com.amri.api;
 
-import com.sncf.api.dto.User;
+import com.amri.api.dto.User;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

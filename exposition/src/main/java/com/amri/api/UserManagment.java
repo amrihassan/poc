@@ -1,6 +1,6 @@
-package com.sncf.api;
+package com.amri.api;
 
-import com.sncf.api.dto.User;
+import com.amri.api.dto.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.sncf.api.dto;
+package com.amri.api.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
@@ -9,6 +9,9 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.Date;
 
+/**
+ * Dto User
+ */
 @JsonRootName(value = "user", namespace="users")
 public class User {
 
